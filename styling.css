@@ -3,7 +3,9 @@ body {
   margin: 0 0 100px 0;
   background-color: #000044;
   font-size: large;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 h1{
   color: white;
 }
