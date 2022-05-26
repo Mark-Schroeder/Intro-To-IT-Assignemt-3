@@ -7,8 +7,7 @@ body {
 h1{
   color: white;
 }
- 
-.aligncenter {
+.aligncenter { 
   text-align: center;
 }
 
@@ -113,7 +112,15 @@ button {
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
+
+  transition-duration: 0.4s;
+  
 }
+button:hover {
+  background-color: #443646; /* Green */
+  color: white;
+}
+
 div, iframe {
   margin: 0 auto;
   display: block;
