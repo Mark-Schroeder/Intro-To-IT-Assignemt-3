@@ -52,30 +52,254 @@
           <h1>Prototyping and Databases</h1>
         </div>
         <div class="proj_overview">
-        <h2>Prototype </h2>
+        <h2><u>Prototype</u></h2>
         <p>Invision Link: <a href="https://infotecha3group1.invisionapp.com/prototype/cl3ly7fkw00qk2n014z2bl35i/play" target="_blank"> Invision</a></p>
-            Scope Creep</b></u></p>
-            Scope creep is the phenomenon of unmanageable features within the project cycle that cannot realistically be built within the team’s capabilities or timeframe (Wrike 2019). There are many contributing factors that influence scope creep but for the purpose of Kaleid AI’s project, the focus will be on adding uncontrolled changes, poor communication, and unachievable time frames. </p>
-            Uncontrolled Changes
-            Uncontrolled changes are a result of team members adding features without reviewing the change amongst the team, this is more present in larger scale teams that fail to meet regularly (Project Management Qualification 2019). It is important to discuss changes with the team constantly to avoid any downstream impact or rework. To combat this problem upholding one of the values of constant face-to-face collaboration from agile software development will decrease uncontrolled changes. </p> 
-            Poor Communication
-            If the scope is vaguely defined, fuzzy or if the team fail to communicate changes, then the project strategy will be out of control and the project plan will fail.  Control processes through lightweight documentation and version control can save projects for when the project falls out of scope. Discipline and sticking to the plan inside a small goal, also known as a sprint, will ensure that work does not go beyond scope requirements (Haworth 2018). </p>
-            Timeframes
-            Time is another determining factor of scope creep that places the project in jeopardy. If a team is new or inexperienced with the necessary technology available, then it is important to take a conservative approach when developing a project (Haworth 2018). Frequent small goals that inevitably build to the big picture item is a wise method to develop working software, teams must ensure to meet regularly showcasing their work to prove to the team that they are on track. </p>
-            Kaleid AI Scope Creep
-            With the team’s current skillset time is the biggest enemy. The concern is only four weeks to present artifacts to a competitive group of technology students. The team must consider which features are achievable and which features are not. Listed above under Scope and Limitations are the team's present, future and out of scope features. </p>
-            The team is to treat each requirement as an assembly line, only moving on to the next piece of technology until the previous has proved to be working with no bugs. Our value of operational excellence encourages the team to stay within our aim of producing software that is working and not full of airy unavailable features. </p>
-            The three features at risk of scope creep are:</p>
+            Scope Creep</b></u></p>Scope creep is the phenomenon of unmanageable features within the project cycle that cannot realistically be built within the team’s capabilities or timeframe (Wrike 2019). There are many contributing factors that influence scope creep but for the purpose of Kaleid AI’s project, the focus will be on adding uncontrolled changes, poor communication, and unachievable time frames. </p>Uncontrolled ChangesUncontrolled changes are a result of team members adding features without reviewing the change amongst the team, this is more present in larger scale teams that fail to meet regularly (Project Management Qualification 2019). It is important to discuss changes with the team constantly to avoid any downstream impact or rework. To combat this problem upholding one of the values of constant face-to-face collaboration from agile software development will decrease uncontrolled changes. </p> Poor CommunicationIf the scope is vaguely defined, fuzzy or if the team fail to communicate changes, then the project strategy will be out of control and the project plan will fail.  Control processes through lightweight documentation and version control can save projects for when the project falls out of scope. Discipline and sticking to the plan inside a small goal, also known as a sprint, will ensure that work does not go beyond scope requirements (Haworth 2018). </p>TimeframesTime is another determining factor of scope creep that places the project in jeopardy. If a team is new or inexperienced with the necessary technology available, then it is important to take a conservative approach when developing a project (Haworth 2018). Frequent small goals that inevitably build to the big picture item is a wise method to develop working software, teams must ensure to meet regularly showcasing their work to prove to the team that they are on track. </p>Kaleid AI Scope CreepWith the team’s current skillset time is the biggest enemy. The concern is only four weeks to present artifacts to a competitive group of technology students. The team must consider which features are achievable and which features are not. Listed above under Scope and Limitations are the team's present, future and out of scope features. </p>The team is to treat each requirement as an assembly line, only moving on to the next piece of technology until the previous has proved to be working with no bugs. Our value of operational excellence encourages the team to stay within our aim of producing software that is working and not full of airy unavailable features. </p>The three features at risk of scope creep are:</p>
             <li>Reflections Assistant</li> 
             <li>Data Memories</li>
             <li>Database</li>
+<<<<<<< HEAD
+            </p><br>
+            <h2><u>ER Model Entity Interactions</u></h2>
+            <img src="Kaleid_images/ER Model Entity Interactions.png" alt="ER Model Entity Interactions">
+            <p></p>
+            <ul>
+              <li>All employees must have one supervisor&nbsp;&nbsp;</li>
+              </ul>
+              <ul>
+              <li>Employee must store SSN, Name, DoB, Address, Gender, TeamNo</li>
+              </ul>
+              <ul>
+              <li>Supervisor can supervise multiple employees&nbsp;</li>
+              <li>All employees belong to one department&nbsp;</li>
+              </ul>
+              <ul>
+              <li>Department stores DNo, Dlocation, Dname</li>
+              </ul>
+              <ul>
+              <li>Employees can work on many Software projects that may assess many user&rsquo;s Diary log&nbsp;</li>
+              </ul>
+              <ul>
+              <li>Software project includes SoftwareID, SoftwareName, Algorithm, DateProduced, TeamNo</li>
+              <li>Diary Log includes EntryID, EntryYear, EntryMonth</li>
+              </ul>
+              <ul>
+              <li>Diary log must be assessed by 1 software project that is created by at least 1 employee&nbsp;</li>
+              </ul>
+              <ul>
+              <li>Diary log can contain Diary Entries but Diary Entry must belong to Diary Log&nbsp;</li>
+              </ul>
+              <ul>
+              <li>Diary entries include EntryID, EntryTitle, EntryImage, EntryContent</li>
+              </ul>
+              <ul>
+              <li>A user may submit any number of diary entries&nbsp;</li>
+              <li>Diary entry may be submitted by any number of users&nbsp;</li>
+              </ul>
+              <ul>
+              <li>User includes Email, DoB, PhoneNO</li>
+              </ul>
+              <ul>
+              <li>User registers and can create a profile afterwards associated with their user account&nbsp;</li>
+              </ul>
+              <ul>
+              <li>Profile includes Username, Personal bio, Password, Profile Picture</li>
+              </ul>
+              <ul>
+              <li>A profile must be associated with a user if it exists&nbsp;</li>
+              </ul>
+              <p><strong>ER Model-to-Schema 7-Steps</strong>&nbsp;</p>
+              <ol>
+              <li>Strong Entities&nbsp;</li>
+              </ol>
+              <ul>
+              <li><strong>Employee</strong>(<u>SSN</u>, Name, EmployeeDoB, Address, Gender, TeamNo)&nbsp;</li>
+              <li><strong>Department</strong>(<u>DNo</u>, DLocation, DName)&nbsp;</li>
+              <li><strong>Software</strong>(<u>SoftwareID</u>, SoftwareName, DateProduced, TeamNo*)&nbsp;</li>
+              <li><strong>Diary Entry</strong>(<u>EntryID</u>, EntryTitle, EntryImage, EntryContent, EntryYear, EntryMonth)&nbsp;</li>
+              <li><strong>User</strong>(<u>Email</u>, UserDoB, PhoneNo)&nbsp;</li>
+              </ul>
+              <ul>
+              <li><strong>Diary Log</strong>(<u>DiaryID</u>, DiaryTitle)&nbsp;</li>
+              <li><strong>Profile</strong>(<u>Username</u>, Email*, ProfilePicture, PersonalBio, Password)&nbsp;</li>
+              </ul>
+              <ol start="2">
+              <li>Weak Entities</li>
+              </ol>
+              <ul>
+              <li>None&nbsp;</li>
+              </ul>
+              <ol start="3">
+              <li>1:1 relationships (Cardinality)</li>
+              </ol>
+              <ul>
+              <li>Participation = 1 on one side&nbsp;</li>
+              </ul>
+              <ul>
+              <li><strong>Profile</strong>(<u>Username</u>, <u>Email</u>*, ProfilePicture, PersonalBio, Password) + <strong>User</strong> PK as FK&nbsp;</li>
+              <li><strong>DiaryLog</strong>(<u>DiaryID</u>, Email*, DiaryTitle)&nbsp;</li>
+              </ul>
+              <ol start="4">
+              <li>1:N relationships (Cardinality)</li>
+              </ol>
+              <ul>
+              <li><strong>Diary Entry</strong>(<u>EntryID</u>, DiaryID*, EntryTitle, EntryImage, EntryContent, EntryYear, EntryMonth) + <strong>Diary Log </strong>PK as FK&nbsp;</li>
+              </ul>
+              <ul>
+              <li><strong>Diary Entry</strong>(<u>EntryID</u>, DiaryID*, Email*, EntryTitle, EntryImage, EntryContent, EntryYear, EntryMonth) + <strong>User</strong> PK as FK&nbsp;</li>
+              <li><strong>Diary Log</strong>(<u>DiaryID</u>, SoftwareID*, Email*, DiaryTitle) + <strong>Software </strong>PK as FK&nbsp;</li>
+              <li><strong>Employee</strong>(<u>SSN</u>, Name, EmployeeDoB, Address, Gender, TeamNo, DNo*) + <strong>Department</strong> PK as FK&nbsp;</li>
+              </ul>
+              <ol start="5">
+              <li>N:N relationships (Cardinality)</li>
+              </ol>
+              <ul>
+              <li>New relation:&nbsp;</li>
+              </ul>
+              <ul>
+              <li><strong>WorksOn</strong>(<u>SSN</u>*, <u>SoftwareID</u>*, HoursSpent) + involved entities PK&rsquo;s as PK of new relation + relationship attributes&nbsp;</li>
+              </ul>
+              <ol start="6">
+              <li>Multi-valued relationships</li>
+              </ol>
+              <ul>
+              <li>None present.&nbsp;</li>
+              </ul>
+              <ol start="7">
+              <li>Recursive relationships</li>
+              </ol>
+              <ul>
+              <li><strong>Employee</strong>(<u>SSN</u>, Name, EmployeeDoB, Address, Gender, TeamNo, DNo*, SuperSSN*) + <strong>Employee</strong> supervisor PK as FK&nbsp;</li>
+              </ul>
+=======
         
         <h2>Database</h2>
           </div>
 
+>>>>>>> 6090f4b54c4a5eb55975999aa6fb002a80dd1655
 
 
-      </div> <!-- / .technologies -->
+              <ul>
+                <li>
+                <p><strong>Database Schema</strong>&nbsp;</p>
+                <p><strong>Department</strong>(<u>DNo</u>, DLocation, DName)&nbsp;</p>
+                <p><strong>Employee</strong>(<u>SSN</u>, Name, EmployeeDoB, Address, Gender, TeamNo, DNo*, SuperSSN*)&nbsp;</p>
+                <p><strong>WorksOn</strong>(<u>SSN</u>*, <u>SoftwareID</u>*, HoursSpent)&nbsp;</p>
+                <p><strong>Software</strong>(<u>SoftwareID</u>, SoftwareName, DateProduced, TeamNo*)&nbsp;</p>
+                <p><strong>User</strong>(<u>Email</u>, UserDoB, PhoneNo)&nbsp;</p>
+                <p><strong>Profile</strong>(<u>Username</u>, Email*, ProfilePicture, PersonalBio, Password)&nbsp;</p>
+                <p><strong>Diary Log</strong>(<u>DiaryID</u>, SoftwareID*, Email*, DiaryTitle)&nbsp;</p>
+                <p><strong>Diary Entry</strong>(<u>EntryID</u>, DiaryID*, Email*, EntryTitle, EntryImage, EntryContent, EntryYear, EntryMonth)&nbsp;</p>
+                <p><strong>Normalization</strong>&nbsp;</p>
+                <p><strong>Functional Dependencies:</strong>&nbsp;</p>
+                <p>Department&nbsp;</p>
+                <ul>
+                <li>FD1: DNo &agrave; DLocation, DName&nbsp;</li>
+                </ul>
+                <p>Employee&nbsp;</p>
+                <ul>
+                <li>FD2: SSN &agrave; Name, EmployeeDoB, Address, Gender, TeamNo, DNo, SuperSSN&nbsp;</li>
+                </ul>
+                <p>WorksOn&nbsp;</p>
+                <ul>
+                <li>FD3: SSN, SoftwareID &agrave; HoursSpent&nbsp;</li>
+                </ul>
+                <p>&nbsp;</p>
+                <p>Software&nbsp;</p>
+                <ul>
+                <li>FD4: SoftwareID &agrave; SoftwareName, DateProduced, TeamNo&nbsp;</li>
+                </ul>
+                <p>User&nbsp;</p>
+                <ul>
+                <li>FD5: Email &agrave; UserDoB, PhoneNO&nbsp;</li>
+                </ul>
+                <p>Profile&nbsp;</p>
+                <ul>
+                <li>FD6: Username &agrave; Email, ProfilePicture, PersonalBio, Password&nbsp;</li>
+                </ul>
+                <p>Diary Log&nbsp;</p>
+                <ul>
+                <li>FD8: DiaryID &agrave; SoftwareID, Email, DiaryTitle&nbsp;</li>
+                </ul>
+                <p>Diary Entry&nbsp;</p>
+                <ul>
+                <li>FD9: EntryID &agrave; DiaryID, Email, EntryTitle, EntryImage, EntryContent, EntryYear, EntryMonth&nbsp;</li>
+                </ul>
+                <p><strong>1<sup>st</sup> Normal Form breaches: (Repeating Values / Groups / Comma-separated lists)</strong>&nbsp;</p>
+                <ul>
+                <li><strong>Diary Entry</strong>(<u>EntryID</u>, DiaryID*, Email*, EntryTitle, EntryImage, EntryContent, EntryYear, EntryMonth)&nbsp;</li>
+                </ul>
+                <p>Decomposed:&nbsp;</p>
+                <p><strong>Diary Entry</strong>(<u>EntryID</u>, DiaryID*, Email*, EntryTitle, EntryImage, EntryContent)&nbsp;</p>
+                <p><strong>Diary Entry Date</strong>(<u>EntryYear</u>, <u>EntryMonth</u>, <u>EntryID</u>*)&nbsp;</p>
+                <ul>
+                <li><strong>Department</strong>(<u>DNo</u>, DLocation, DName)&nbsp;</li>
+                </ul>
+                <p>Decomposed:&nbsp;</p>
+                <p><strong>Department</strong>(<u>DNo</u>, DName)&nbsp;</p>
+                <p><strong>DLocations</strong>(<u>DNo</u>*, <u>DLocation</u>)&nbsp;</p>
+                <ul>
+                <li><strong>Employee</strong>(<u>SSN</u>, Name, EmployeeDoB, Address, Gender, TeamNo, DNo*, SuperSSN*)&nbsp;</li>
+                </ul>
+                <p>Decomposed:&nbsp;</p>
+                <p><strong>Employee</strong>(<u>SSN</u>, Name, EmployeeDoB, Address, Gender, DNo*, SuperSSN*)&nbsp;</p>
+                <p><strong>EmployeeTeam</strong>(<u>TeamNo</u>, <u>SSN</u>*)&nbsp;</p>
+                <p>Results:&nbsp;</p>
+                <p><strong>Diary Entry</strong>(<u>EntryID</u>, DiaryID*, EntryTitle, EntryImage, EntryContent)&nbsp;</p>
+                <p><strong>Diary Entry Date</strong>(<u>EntryYear</u>, <u>EntryMonth</u>, <u>EntryID</u>*)&nbsp;</p>
+                <p><strong>Department</strong>(<u>DNo</u>, DName)&nbsp;</p>
+                <p><strong>DLocations</strong>(<u>DNo</u>*, <u>DLocation</u>)&nbsp;</p>
+                <p><strong>Employee</strong>(<u>SSN</u>, Name, EmployeeDoB, Address, Gender, DNo*, SuperSSN*)&nbsp;</p>
+                <p><strong>EmployeeTeam</strong>(<u>TeamNo</u>, <u>SSN</u>*)&nbsp;</p>
+                <p><strong>2<sup>nd</sup> Normal Form breaches: (Composite Key Dependency Failures)</strong>&nbsp;</p>
+                <p>No 2<sup>nd</sup> Normal Form breaches.&nbsp;</p>
+                <p><strong>3<sup>rd</sup> Normal Form breaches: (Transitive Dependencies)</strong>&nbsp;</p>
+                <p>No 3<sup>rd</sup> Normal Form breaches.&nbsp;</p>
+                <p><strong>Final Schema</strong>&nbsp;</p>
+                <p><strong>WorksOn</strong>(<u>SSN</u>*, <u>SoftwareID</u>*, HoursSpent)&nbsp;</p>
+                <p><strong>Software</strong>(<u>SoftwareID</u>, SoftwareName, DateProduced, TeamNo*)&nbsp;</p>
+                <p><strong>User</strong>(<u>Email</u>, UserDoB, PhoneNo)&nbsp;</p>
+                <p><strong>Profile</strong>(<u>Username</u>, Email*, ProfilePicture, PersonalBio, Password)&nbsp;</p>
+                <p><strong>Diary Log</strong>(<u>DiaryID</u>, SoftwareID*, Email*, DiaryTitle)&nbsp;</p>
+                <p><strong>Diary Entry</strong>(<u>EntryID</u>, DiaryID*, EntryTitle, EntryImage, EntryContent, EntryYear, EntryMonth)&nbsp;</p>
+                <p><strong>Diary Entry</strong>(<u>EntryID</u>, DiaryID*, Email*, EntryTitle, EntryImage, EntryContent)&nbsp;</p>
+                <p><strong>Diary Entry Date</strong>(<u>EntryYear</u>, <u>EntryMonth</u>, <u>EntryID</u>*)&nbsp;</p>
+                <p><strong>Department</strong>(<u>DNo</u>, DLocation, DName)&nbsp;</p>
+                <p><strong>Department</strong>(<u>DNo</u>, DName)&nbsp;</p>
+                <p><strong>DLocations</strong>(<u>DNo</u>*, <u>DLocation</u>)&nbsp;</p>
+                <p><strong>Employee</strong>(<u>SSN</u>, Name, EmployeeDoB, Address, Gender, TeamNo, DNo*, SuperSSN*)&nbsp;</p>
+                <p><strong>Employee</strong>(<u>SSN</u>, Name, EmployeeDoB, Address, Gender, DNo*, SuperSSN*)&nbsp;</p>
+                <p><strong>EmployeeTeam</strong>(<u>TeamNo</u>, <u>SSN</u>*)&nbsp;</p>
+                <h3>SQLite Snippets</h3>
+                <p><strong>Case1. Display EntryTitles within the Month of December:</strong>&nbsp;</p>
+                <p>SELECT Diary_Entry.EntryTitle&nbsp;</p>
+                <p>FROM Diary_Entry JOIN Diary_Entry_Date&nbsp;</p>
+                <p>&nbsp;&nbsp;&nbsp; ON Diary_Entry.EntryID == Diary_Entry_Date.EntryID&nbsp;</p>
+                <p>Where LOWER(Diary_Entry_Date.EntryMonth) == 'december';&nbsp;</p>
+                <p>&nbsp;</p>
+                <p><strong>Case2. View your Profile details:</strong>&nbsp;</p>
+                <p>DROP VIEW IF EXISTS profile_view_details;&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>CREATE VIEW profile_view_details AS&nbsp;</p>
+                <p>&nbsp;&nbsp;&nbsp; SELECT Profile.ProfilePicture, User.Email, Profile.Username, User.PhoneNo, Profile.PersonalBio&nbsp;&nbsp;</p>
+                <p>&nbsp;&nbsp;&nbsp; FROM User JOIN Profile&nbsp;</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ON User.Email == Profile.Email;&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>SELECT *&nbsp;</p>
+                <p>FROM profile_view_details;&nbsp;</p>
+                <p>&nbsp;</p>
+                <p><strong>Case3. You want to filter entries between September to November</strong>&nbsp;</p>
+                <p>SELECT *&nbsp;</p>
+                <p>FROM Diary_Entry JOIN Diary_Entry_Date&nbsp;</p>
+                <p>&nbsp;&nbsp;&nbsp; ON Diary_Entry.Email == Diary_Entry_Date.Email&nbsp;</p>
+                <p>WHERE LOWER(Diary_Entry_Date.EntryMonth) NOT IN ('september', 'october', 'november');&nbsp;</p>
+                </li>
+                </ul>
+                <h2><u>References</u></h2>
+                <p>Word to HTML 2022, <i>Word Document to HTML Online Converter</i>, viewed 29 May 2022, https://wordhtml.com/</p>
+                <p>This converter was only used for this page as there were so many bullet points we could not finish it in time without this.</p>
+          </div>
+      </div> 
     </main>
   </body>
 </html>
